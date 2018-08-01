@@ -9,8 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.256.1",
-    "body-parser": "^1.18.3"
+    "aws-sdk": "^2.284.1",
+    "body-parser": "^1.18.3",
+    "pip": "0.0.1",
+    "python": "0.0.4"
   },
   "repository": {
     "type": "git",
