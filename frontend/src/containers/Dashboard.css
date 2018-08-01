@@ -1,0 +1,87 @@
+.Dashboard .lander {
+  width: 100%; 
+  height: 100%; 
+  text-align: center;
+}
+
+  /* Clear floats after the columns */
+  .lander:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .Dashboard .lander h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 400%;
+    color: black;
+  }
+  
+  .Dashboard .lander p {
+      font-size: 120%;
+      color: black;
+  }
+
+  .numbers {
+    list-style-type: none;
+    color: black;
+    order: 1; 
+    font-size:20px;
+    text-align: center; 
+    background: skyblue; 
+    box-shadow: 0px 10px 10px 5px; 
+    padding: 10px; 
+    float: left;
+    width: 32%;
+    margin: 1%;
+  }
+
+  .numbersUL {
+    list-style-type: none;
+    color: black;
+    order: 1; 
+    font-size:20px;
+    text-align: center; 
+    padding: 10px; 
+  }
+
+  .numbers2 {
+    order: 2; 
+    list-style-type: none;
+    color: black;
+    font-size:20px;
+    text-align: center; 
+    background: olive; 
+    box-shadow: 0px 10px 10px 5px; 
+    padding: 10px; 
+    float: left;
+    margin: 1%;
+    width: 31%;
+  }
+
+  .maxes {
+    order: 3; 
+    list-style-type: none;
+    color: black;
+    font-size:20px;
+    text-align: left; 
+    background: orange; 
+    box-shadow: 0px 10px 10px 5px; 
+    padding: 10px;
+    float: left;
+    margin: 1%;
+    width: 31%;
+  }
+
+  .liftForm {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 20px;
+    max-width: 80%;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    align-items: center; 
+  }

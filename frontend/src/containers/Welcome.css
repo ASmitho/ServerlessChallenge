@@ -1,0 +1,33 @@
+
+  .liftForm {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: -10%;
+    margin-bottom: 50px;
+    color: white;
+    text-align: center;
+    align-items: center; 
+  }
+  
+  
+  .Home .lander {
+    text-align: center;
+    margin: 0; 
+  }
+  
+  .Home .lander h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 200%;
+    color: white;
+    margin: 0;
+  }
+  
+  .Home .lander p {
+      font-size: 120%;
+      color: white;
+  }

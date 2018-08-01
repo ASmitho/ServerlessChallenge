@@ -1,0 +1,19 @@
+{
+  "name": "strengthdev",
+  "version": "1.0.0",
+  "description": "App for Coding Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.256.1",
+    "body-parser": "^1.18.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github:ASmitho/StrengthDev"
+  }
+}
